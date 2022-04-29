@@ -8,9 +8,9 @@
             "twitter_username": "ImTheSquid11"
         }],
         "version": "1.0.0",
-        "description": "PiP Embeds",
+        "description": "Gives Discord some snowy weather",
         "github": "https://github.com/ImTheSquid/Snowcord",
-        "github_raw": "https://raw.githubusercontent.com/ImTheSquid/Snowcord/master/PiPEmbeds.plugin.js"
+        "github_raw": "https://raw.githubusercontent.com/ImTheSquid/Snowcord/master/Snowcord.plugin.js"
     },
     "changelog": [
         {"title": "Initial Release", "items": ["Hello, World!"]}

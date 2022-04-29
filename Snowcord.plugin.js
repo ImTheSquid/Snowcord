@@ -1,7 +1,7 @@
 /**
  * @name Snowcord
  * @website https://github.com/ImTheSquid/Snowcord
- * @source https://raw.githubusercontent.com/ImTheSquid/Snowcord/master/PiPEmbeds.plugin.js
+ * @source https://raw.githubusercontent.com/ImTheSquid/Snowcord/master/Snowcord.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -28,7 +28,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"Snowcord","authors":[{"name":"ImTheSquid","discord_id":"262055523896131584","github_username":"ImTheSquid","twitter_username":"ImTheSquid11"}],"version":"0.0.1","description":"PiP Embeds","github":"https://github.com/ImTheSquid/Snowcord","github_raw":"https://raw.githubusercontent.com/ImTheSquid/Snowcord/master/PiPEmbeds.plugin.js"},"changelog":[{"title":"Initial Release","items":["Hello, World!"]}],"main":"bundled.js"};
+    const config = {"info":{"name":"Snowcord","authors":[{"name":"ImTheSquid","discord_id":"262055523896131584","github_username":"ImTheSquid","twitter_username":"ImTheSquid11"}],"version":"1.0.0","description":"Gives Discord some snowy weather","github":"https://github.com/ImTheSquid/Snowcord","github_raw":"https://raw.githubusercontent.com/ImTheSquid/Snowcord/master/Snowcord.plugin.js"},"changelog":[{"title":"Initial Release","items":["Hello, World!"]}],"main":"bundled.js"};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
