@@ -1,0 +1,14 @@
+{
+  "name": "snowcord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Snowcord.plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ImTheSquid",
+  "license": "MIT",
+  "dependencies": {
+    "magic-snowflakes": "^6.0.1"
+  }
+}
