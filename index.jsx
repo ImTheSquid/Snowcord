@@ -86,8 +86,8 @@ module.exports = (Plugin, Library) => {
                 snowflakes.hide();
             }
 
-            Patcher.after(headerBar.default.prototype, "renderLoggedIn", (_, __, ret) => {
-                ret.props.toolbar.props.children.push(React.createElement(DiscordModules.Tooltip, {text: "Toggle Snowcord", position: "left"}, [
+            Patcher.after(headerBar, "default", (_, __, ret) => {
+                ret.props.children.props.toolbar.push(React.createElement(DiscordModules.Tooltip, {text: "Toggle Snowcord", position: "left"}, [
                     <SnowflakeButton/>
                 ]));
             });
